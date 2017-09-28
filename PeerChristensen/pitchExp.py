@@ -1,14 +1,18 @@
 # -*- coding: utf-8 -*-
 
 # Sound description experiment
-#Script by Peer Christensen, spring 2016
+# Peer Christensen
+# hr.pchristensen@gmail.com
 
 '''
 DESCRIPTION:
+This script is intended to present fully randomized auditory stimuli in two rounds.
 30 clips/trials (incl. 5 warm-up), 2 tones per trial differing in pitch,
 Range: C1-C4, key of C
-Remember to edit "path" 
+Participant info and stimulus list are logged.
+Remember to edit "path" and "s_path" variables
 '''
+
 from psychopy import core, visual, gui, monitors, sound, event
 import random, os
 from random import sample
