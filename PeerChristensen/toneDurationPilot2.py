@@ -1,3 +1,14 @@
+# Tone duration script 2
+
+# Peer Christensen
+# hr.pchristensen@gmail.com
+
+''' 
+DESCRIPTION: 
+This script is similar to oneDurationPilot.py, but in this script, 
+tones are generated within PsychoPy and not loaded from a directory
+'''
+
 from psychopy import core, visual, gui, monitors, sound, event
 import random, os
 from random import sample
