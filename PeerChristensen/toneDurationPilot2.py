@@ -5,7 +5,7 @@
 
 ''' 
 DESCRIPTION: 
-This script is similar to oneDurationPilot.py, but in this script, 
+This script is similar to toneDurationPilot.py, but in this script, 
 tones are generated within PsychoPy and not loaded from a directory
 '''
 
