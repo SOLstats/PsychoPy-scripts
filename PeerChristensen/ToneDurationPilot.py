@@ -1,5 +1,13 @@
 # Sound duration pilot script
 
+# Peer Christensen
+# hr.pchristensen@gmail.com
+
+'''
+DESCRIPTION: This script will load and play sound files from a given directory.
+The experiment is controlled with key presses.
+'''
+
 from psychopy import core, visual, gui, monitors, sound, event
 import random, os
 from random import sample
