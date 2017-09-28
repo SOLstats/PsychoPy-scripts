@@ -1,4 +1,19 @@
 
+# Age-Duration visual interference task
+
+# Peer Christensen
+# hr.pchristensen@gmail.com
+
+'''
+Description: 
+This script is intended to show images.
+The duration of each image presentation is determined by the stims variable.
+After presentation, the participant's task is to estimate the duration of each stimulus
+by pressing ENTER to indicate a start and stop time.
+Performance is logged and stored in csv files.
+'''
+
+
 from psychopy import core, visual, gui, monitors, sound, event
 import random, os
 from random import sample
@@ -29,7 +44,7 @@ for file in os.listdir(path):
         images.append(file)
         
 def runExp():
-    stims=list(np.arange(1,10,0.5)) #change according to desired stim length
+    stims=list(np.arange(1,10.1,0.5)) #change according to desired stim length
     random.shuffle(stims)
     core.wait(0.5)
     startMes.draw()
