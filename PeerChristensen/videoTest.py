@@ -3,6 +3,9 @@
 
 # Script testing video files in PsychoPy
 
+# Peer Christensen
+# hr.pchristensen@gmail.com
+
 #NOTES: 
 
 #an error occurred and the audio device
