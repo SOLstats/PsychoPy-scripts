@@ -1,5 +1,6 @@
-#Peer Christensen
-#September 2017
+
+# Peer Christensen
+# hr.pchristensen@gmail.com
 
 '''
 DESCRIPTION:
